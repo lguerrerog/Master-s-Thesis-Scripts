@@ -1,0 +1,14 @@
+genotypename:   /nfs/geo/projects/south_america/Banks_Island/references/v62.0_1240k_public_sgl_sgh.geno
+snpname:     /nfs/geo/projects/south_america/Banks_Island/references/v62.0_1240k_public_sgl_sgh.snp
+indivname:   /nfs/geo/projects/south_america/Banks_Island/references/v62.0_1240k_public_sgl_sgh.ind
+
+evecoutname:        /nfs/geo/projects/south_america/Banks_Island/pop_gen_Lucia/PCA_complete/coordinates_1240Kv62__C_sgl_sgh.evec
+evaloutname:         /nfs/geo/projects/south_america/Banks_Island/pop_gen_Lucia/PCA_complete/variance_1240Kv62__C_sgl_sgh.eval
+
+poplistname:	/nfs/geo/projects/south_america/Banks_Island/references/name_list_full_axis.txt
+
+lsqproject: YES 
+shrinkmode: YES
+
+
+#sbatch --mem=64000 --partition=long -o /nfs/geo/projects/south_america/Banks_Island/pop_gen_Lucia/PCA_complete/smartpca_c_sgl_sgh.log --wrap="smartpca -p /nfs/geo/projects/south_america/Banks_Island/scripts/Smart_PCA_full.sh"
