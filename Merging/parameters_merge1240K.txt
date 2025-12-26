@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+geno1:  /nfs/geo/projects/south_america/Banks_Island/references/v62.0_1240k_public_sgl_sgh.geno
+snp1:   /nfs/geo/projects/south_america/Banks_Island/references/v62.0_1240k_public_sgl_sgh.snp
+ind1:   /nfs/geo/projects/south_america/Banks_Island/references/v62.0_1240k_public_sgl_sgh.ind
+
+geno2:  /nfs/geo/projects/south_america/Banks_Island/EAGER_Lucia/Shotgun_bleached/merged_bam/Calls.Comp.geno
+snp2:   /nfs/geo/projects/south_america/Banks_Island/EAGER_Lucia/Shotgun_bleached/merged_bam/Calls.Comp.snp
+ind2:   /nfs/geo/projects/south_america/Banks_Island/EAGER_Lucia/Shotgun_bleached/merged_bam/Calls.Comp.ind
+
+genooutfilename: /nfs/geo/projects/south_america/Banks_Island/references/final_genotyping.geno
+snpoutfilename:  /nfs/geo/projects/south_america/Banks_Island/references/final_genotyping.snp
+indoutfilename:  /nfs/geo/projects/south_america/Banks_Island/references/final_genotyping.ind
+
+outputformat: EIGENSTRAT
+strandcheck: NO
+hashcheck: NO
+
+#sbatch --partition=long --mem=64000  -o /nfs/geo/projects/south_america/Banks_Island/Variant_Call_Lucia/Shotgun_bleached/final_genotyping.log --wrap="mergeit -p /nfs/geo/projects/south_america/Banks_Island/scripts/PCA_1240K_merge.sh"
