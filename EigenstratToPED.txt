@@ -1,0 +1,11 @@
+genotypename:     /nfs/geo/projects/south_america/Banks_Island/references/Admixture2/subset2_ADMIXTURE.geno
+snpname:          /nfs/geo/projects/south_america/Banks_Island/references/Admixture2/subset2_ADMIXTURE.snp
+indivname:        /nfs/geo/projects/south_america/Banks_Island/references/Admixture2/subset2_ADMIXTURE.ind
+
+outputformat:    PED
+
+genotypeoutname:  /nfs/geo/projects/south_america/Banks_Island/references/Admixture2/subset2_ADMIXTURE.ped
+snpoutname:      /nfs/geo/projects/south_america/Banks_Island/references/Admixture2/subset2_ADMIXTURE.map
+indivoutname:    /nfs/geo/projects/south_america/Banks_Island/references/Admixture2/subset2_ADMIXTURE.pedind
+
+
