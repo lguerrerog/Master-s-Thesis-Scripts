@@ -1,8 +1,12 @@
 # Master-s-Thesis-Scripts
-Scripts used for my Master's thesis
+The scripts used for my Master's thesis are grouped by topic or test.
 
-- *population_selection.ipynb* For defining the populations to include in the analyses.
-- *f4test_plots.ipynb* For the visualisation of F4 results.
-- *Admixture_plot.R* For plotting the Admixture results
-- *CVerror_plot.R* For plotting results of cross-validation errors under different K values to determine the minimum.
-- *Worldwide_PCA_final.R* For plotting PCA results
+- *Population_Selection* Contains the script for defining the populations to include in the analyses.
+- *Admixture* Contains the scripts to convert genotypes to Plink format, run ADMIXTURE, and visualise cross-validation and admixture results.
+- *F_tests* Contains scripts to run F-statistics with qp3Pop and qpDstat and the visualisation of F4 results.
+- *Genotuping* Contains the script to run variant calling.
+- *PCA* Contains the scripts to run worldwide PCA with smartpca and for plotting PCA results
+- *Merge* Contains the scripts to merge Umingmak results from the same treatment and to merge the Umingmak genotypes with the 1240K dataset.
+- *Schmutzi* Contains the script to run Schmutzi on the mitochondrial DNA.
+- *SexDet_XCont* Contains the script to run sex determination and X contamination.
+
